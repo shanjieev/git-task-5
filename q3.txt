@@ -1,0 +1,109 @@
+
+*DOCUMENT  
+
+the document object represents a web page that is loaded in the browser. By accessing the document object, we can access the element in the HTML page. With the help of document objects, we can add dynamic content to our web page. The document object can be accessed with a window.document or just document.      
+Syntax: document.method_name;
+it reperesent any html document or web page that is loaded in the browser.
+it's loaded inside the window.
+it is a objects window property.
+all the tags,elements with attributes in the html are part of the document.
+we can access the document from a window using the window.document.
+the document is part of BOM (browser objects model).DOM(document object model).
+properties of document objects such as title,cookies,body,etc.. 
+It returns the currently active elements in the document.
+body: It returns the contents of the body element.
+anchors: It returns all <a> elements that have a name attribute.
+baseURI: It returns a string value that represents the base URI of the document.
+cookie: It returns the cookie of the current document.
+charSet: It returns a string, representing the document’s character encoding.
+defaultView: It returns the current Window Object.
+ It is used to set documents as editable or read-only.
+domain: It returns the domain name of the document server.
+doctype: It returns the document’s doctype.
+embeds: It returns the collection of all embedded elements.
+URL: It returns the complete URL of the document.
+forms: It returns all the elements of the form.
+fullScreenElement: It returns the element that is currently present in full-screen mode.
+
+*WINDOW
+
+The window object is the topmost object of the DOM hierarchy. It represents a browser window or frame that displays the contents of the webpage. Whenever a window appears on the screen to display the contents of the document, the window object is created. 
+Syntax: window.property_name;
+it reperesent a browser window or frame that display the contents of the webpage.
+it's the very first object that is  loaded in the browser
+it is a objects of the  browser
+golbal objects,function,and variables of javascript are numbers of the window object.
+we can access the window from the window only ex,. window.window
+the window is the part only BOM,not DOM
+properties of the window objects cannot acccess by document object.
+It is used to attach an event handler to the specified element.
+adoptNode(): It is used to adopt a node from another document and it returns a node object, representing the adopted node.
+close(): It is used to close the output stream.
+createAttribute(): It is used to create an attribute node with the specified name and returns the attribute object.
+createComment(): It is used to create a comment node with some text.
+createDocumentFragment(): It is used to create the document fragment to change the content of the document.
+createElement(): It is used to create HTML element .
+createEvent(): It is used to create a new events object.
+createTextNode(): It is used to create a textnode.
+execCommand(): It is used to execute a command specified by the user on the editable selected section. It returns a Boolean value.
+fullscreenEnabled(): It is used to check whether the document can be viewed in fullscreen mode or not. It returns a boolean value.
+getElementById(): It returns the object of the given ID. If no object with that id exists then it returns null.
+getElementsByClassName(): It returns an object containing all the elements with the specified class names in the document as objects.
+getElementsByName(): It returns an object containing all the elements with the specified name in the document as objects.
+getElementsByTagName(): It returns an object containing all the elements with the specified tag names in the document as objects.
+hasFocus(): It returns a boolean value that indicates whether the document or element has focus or not.
+importNode(): It imports the copy of a node from another document in the current document.
+normalize(): It flushes out the empty nodes and merges the adjacent text nodes with the first text node and
+normalizeDocument(): It is used to normalize an HTML document by removing any empty text nodes and joining the adjacent text nodes.
+open(): It is used to open the output stream to collect the output.
+querySelector(): It returns the first element that matches a specified CSS selector(s) in the document.
+querySelectorAll(): It returns a collection of an element’s child elements that matches a specified CSS selector(s) in the document
+removeEventListener(): It removes the event handler from an element that has an attached event.
+renameNode(): It is used to rename the node.
+write(): It is used to write some content or javascript code in the document.
+writeln(): It is used to write a document with a newline character after each statement.
+
+*SCREENS
+
+Experimental: This is an experimental technology
+\\ " These terms are commonly associated with technologies and specifications and are used on MDN Web Docs to label the status of a technology. For the definition of these terms, MDN Web Docs align with the Browser Compatibility Data (BCD) repository. These terms are described below in the context of their use on MDN Web Docs.
+\\" When a technology is described as experimental on MDN Web Docs, it means that the technology is nascent and immature and is currently in the process of being added to the web platform (or being considered for addition). Marking a technology as experimental indicates that readers should think carefully before using that technology in any kind of production project (i.e., a project that is not just a demo or experiment). Readers are encouraged to try out experimental features and provide feedback to browser vendors and standards authors.
+
+For a technology marked experimental, one or more of the following conditions apply:
+
+It is implemented and enabled by default in the release build of only one modern major browser rendering engine.
+It is only supported through configuration changes such as preferences or flags, regardless of the number of supported rendering engines.
+Its defining specification is likely to change significantly in backwards-incompatible ways i.e., it may break existing code that relies on the feature"
+Secure context: This feature is available only in secure contexts (HTTPS), in some or all supporting browsers.
+\\"Note: ScreenDetails is a live object, meaning that it updates as the available screens change. You can therefore keep querying the same object to get updated values, rather than repeatedly calling getScreenDetails()."
+\\"When Window.getScreenDetails() is invoked, the user will be asked for permission to manage windows on all their displays (the status of this permission can be checked using Permissions.query() to query window-management). If the user grants permission, a ScreenDetails object is returned. This object contains details of all the screens available to the user's system."
+"You could use the screenschange event to detect when the available screens have changed (perhaps when a screen is plugged in or unplugged), report the change, and update window arrangements to suit the new configuration:"
+
+*JAVASCRIPT 
+ 
+"JavaScript is the scripting language of the Web.
+JavaScript is used in millions of Web pages to add functionality, validate forms, detect browsers, and
+much more.
+Introduction to JavaScript
+JavaScript is used in millions of Web pages to improve the design, validate forms, detect browsers, create
+cookies, and much more.
+JavaScript is the most popular scripting language on the Internet, and works in all major browsers, such as
+Internet Explorer, Mozilla Firefox, and Opera.
+What is JavaScript?
+ JavaScript was designed to add interactivity to HTML pages
+ JavaScript is a scripting language
+ A scripting language is a lightweight programming language
+ JavaScript is usually embedded directly into HTML pages
+ JavaScript is an interpreted language (means that scripts execute without preliminary compilation)
+ Everyone can use JavaScript without purchasing a license
+Java and JavaScript are two completely different languages in both concept and design!
+Java (developed by Sun Microsystems) is a powerful and much more complex programming language - in
+the same category as C and C++."
+JavaScript Variables
+Variables are "containers" for storing information.
+JavaScript variables are used to hold values or expressions.
+A variable can have a short name, like x, or a more descriptive name, like carname.
+Rules for JavaScript variable names:
+ Variable names are case sensitive (y and Y are two different variables)
+ Variable names must begin with a letter or the underscore character 
+
